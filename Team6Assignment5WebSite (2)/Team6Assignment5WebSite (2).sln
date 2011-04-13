@@ -1,10 +1,38 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Team6Assignment5WebSite", "..\Team6Assignment5WebSite\", "{EA6F3BAF-4CFE-401E-8499-70E2689D0DEC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Team6Assignment5WebSite"
+		Debug.AspNetCompiler.PhysicalPath = "..\Team6Assignment5WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Team6Assignment5WebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Team6Assignment5WebSite"
+		Release.AspNetCompiler.PhysicalPath = "..\Team6Assignment5WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Team6Assignment5WebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "40841"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
 		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA6F3BAF-4CFE-401E-8499-70E2689D0DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6F3BAF-4CFE-401E-8499-70E2689D0DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
